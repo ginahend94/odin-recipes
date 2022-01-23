@@ -16,6 +16,10 @@ body {
     display: flex;
     justify-content: center;
     background-color: var(--darksea);
+    background-image: url('./images/silverware-304129.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
 }
 .wrapper {
     max-width: 960px;
@@ -23,6 +27,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0,0,0,.2);
     background-color: #fff;
+    margin-top: 50px;
 }
 
 h1 {
